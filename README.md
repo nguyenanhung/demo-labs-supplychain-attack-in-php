@@ -11,6 +11,20 @@ Use
 ```shell
 composer require nguyenanhung/demo-labs-supplychain-attack-in-php
 ```
+```php
+<?php
+require_once 'vendor/autoload.php';
+
+use nguyenanhung\DemoLabs\SupplyChainAttack\ThisIsDemo;
+
+$lab = new ThisIsDemo();
+
+$data = $lab->normalFeature();
+
+echo "<pre>";
+print_r($data);
+echo "</pre>";
+```
 
 ## Contact & Support
 
