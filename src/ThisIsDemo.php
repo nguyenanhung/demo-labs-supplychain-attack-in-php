@@ -6,7 +6,7 @@ class ThisIsDemo
 {
     public function normalFeature()
     {
-        return $this->normalContent();
+        return $this->vulnerableDownloadFile();
     }
 
     public function normalContent()
