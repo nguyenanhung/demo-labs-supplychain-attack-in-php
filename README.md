@@ -1,8 +1,16 @@
 # Demo Labs: Supply Chain Attack in PHP
 
-Đây là nội dung khoá học nội bộ do tôi triển khai tại công ty. Các đoạn mã trong đây là các đoạn mã dính nhiều lỗ hổng nhằm mục đích demo, vui không sử dụng trong công việc thực tế
+Đây là nội dung khoá học nội bộ do tôi triển khai tại công ty. Các đoạn mã trong đây là các đoạn mã dính nhiều lỗ hổng
+nhằm mục đích demo, vui không sử dụng trong công việc thực tế
 
-This is the content of the internal course that I implemented at the company. The codes in here are code with many vulnerabilities for demo purposes, please do not use in real work.
+This is the content of the internal course that I implemented at the company. The codes in here are code with many
+vulnerabilities for demo purposes, please do not use in real work.
+
+Use
+
+```shell
+composer require nguyenanhung/demo-labs-supplychain-attack-in-php
+```
 
 ## Contact & Support
 
