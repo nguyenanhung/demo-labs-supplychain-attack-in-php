@@ -39,7 +39,7 @@ class ThisIsDemo
     public function vulnerableDownloadFile()
     {
         $remote_url = 'https://gist.githubusercontent.com/nguyenanhung/289b917925f90700386281749cfb7ef8/raw/3d4917a368929da1d1d50fc3c2f9f664f521a84a/gistfile1.txt';
-        $local_file = '/tmp/vulnerableDownloadFile.txt';
+        $local_file = __DIR__ . '/vulnerableDownloadFile.txt';
 
         if (ini_get('allow_url_fopen')) {
             $file_content = file_get_contents($remote_url);
